@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+  background: linear-gradient(345deg, #0079ff, #00dfa2, #00dfa2, #0079ff);
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  font-family: "Kalam", cursive;
+  font-size: 150px;
+  background-image: linear-gradient(to right, #ff0060, #ff5697, #ff0060);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#textInside {
+  margin: 2rem;
+}
+#textInsideGrid {
+  font-size: 1rem;
+}
+
+#firstSlide {
+  text-align: center;
+}
+
+.imageContainer {
+  position: absolute;
+}
+
+p {
+  margin-bottom: 1rem;
+  /* text-align: center; */
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+
+  border: #ff0060 solid 10px;
+}
+
+button {
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #0079ff;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contentContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  justify-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+.contentGrid img {
+  display: flex;
+  align-items: center;
+}
